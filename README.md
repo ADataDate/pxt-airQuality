@@ -1,2 +1,13 @@
-# pxt-CCS811
-Makecode Package for the CCS811 Air Quality Sensor 
+# CCS811
+
+
+
+## License
+
+MIT
+
+## Supported targets
+
+* for PXT/microbit
+(The metadata above is needed for package search.)
+

@@ -1,19 +1,17 @@
 {
     "name": "airQuality",
-	"version': "0.0.0",
-	"description": "airQuality",
-	"license": "MIT",
+    "version": "0.0.01",
+    "description": "SparkFun airQuality",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*"
+        "core": "*"
     },
-    "description": "",
     "files": [
         "README.md",
-        "airQuality.ts"
+        "airQuality.ts",
     ],
-	"testFiles": [
-		"tests.ts"
-	],
-	"public": true
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true
 }

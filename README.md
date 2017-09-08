@@ -13,7 +13,7 @@ This package is still under development and subject to changes.
 ### ~
 
 
-##Usage 
+### Usage 
 
 * The CCS811 Air Quality Sensor can be directly mated to the matching pins (I2C) of thr weather:bit for micro:bit system. 
 * I2C is set up so the user neds to start the device, then read the data. 
@@ -30,10 +30,12 @@ The following micro:bit pins are used for weather, atmospheric and aquaponics mo
 * ``P20`` --  I2C - SDA 
 
 ### CCS811 Start Function 
+
 The first block in the AirQuality package is the |CCS811 Start| block. At the start of any program which will use the air quality sensor place the |CCS811 Start| block in a 
 "Forever" block above the rest of your code.
 
-###Air Quality Data 
+### Air Quality Data
+ 
 The CCS811 air quality sensors communicates via I2C. The data returned as a number can be stored in a variable, displayed on the 5x5 LED Matrix or sent serially to OpenLog. 
 * ``|CCS811 Start|``block sets the CCS811 sensor into APP MODE - basically turns it on and ready to transmit data
 * ``|Read eCO2|``block reads the equivalent CO2 and can be any number between 400ppm and 8182ppm. 
@@ -43,7 +45,7 @@ The CCS811 air quality sensors communicates via I2C. The data returned as a numb
 * ``|Device Status|``block is used while troubleshooting otherwise don't use it. 
 * ``|HWID|``block is used to test the most basic read on the I2C line. Use if you are having probelms establishing communication. 
 
-###Example Project:
+### Example Project:
 The following project will read the eCO2 and TVOCs data and then display it on the 5x5 LED matrix. 
 
 ````blocks
@@ -61,11 +63,13 @@ basic.forever(() => {
 })
 airQuality.appStart()
 ```
-## License
+
+
+### License
 
 MIT
 
-## Supported targets
+### Supported targets
 
 * for PXT/microbit
 

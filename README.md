@@ -40,7 +40,6 @@ The CCS811 air quality sensors communicates via I2C. The data returned as a numb
 * ``|CCS811 Start|``block sets the CCS811 sensor into APP MODE - basically turns it on and ready to transmit data
 * ``|Read eCO2|``block reads the equivalent CO2 and can be any number between 400ppm and 8182ppm. 
 * ``|Read TVOCs|``block reads the total organic volatile compounds and can be any number between 0ppb to 1187ppb. 
- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 * ``|Device Error|``block is used while troubleshooting otherwise don't use it. It will return a number corresponding to a specific error on the CCS811.
 * ``|Device Status|``block is used while troubleshooting otherwise don't use it. 
 * ``|HWID|``block is used to test the most basic read on the I2C line. Use if you are having probelms establishing communication. 

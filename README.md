@@ -4,7 +4,7 @@
 
 This package adds functionality to the weather:bit board sold by SparkFun.
 
-To use this package, go to https://makecode.microbit.org, click ``Add Package`` and search for: https://github.com/ADataDate/pxt-CCS811 in the search bar. 
+To use this package, go to https://makecode.microbit.org, click ``Add Package`` and search for: https://github.com/ADataDate/pxt-airQuality in the search bar. 
 
 ### ~
 
@@ -48,7 +48,7 @@ The CCS811 air quality sensors communicates via I2C. The data returned as a numb
 ### Example Project:
 The following project will read the eCO2 and TVOCs data and then display it on the 5x5 LED matrix. 
 
-````blocks
+```blocks
 let eCO2 = 0
 let TVOCs = 0
 basic.forever(() => {
@@ -65,11 +65,11 @@ airQuality.appStart()
 ```
 
 
-### License
+## License
 
 MIT
 
-### Supported targets
+## Supported targets
 
 * for PXT/microbit
 

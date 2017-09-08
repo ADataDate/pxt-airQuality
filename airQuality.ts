@@ -121,7 +121,7 @@ namespace airQuality {
      * to pull data into Algorithm register every second. 
      */
 
-    //% weight=100 blockId="AppStart" block="appMode"
+    //% weight=100 blockId="AppStart" block="CCS811 Start"
     export function appStart(): void {
         pins.i2cWriteNumber(ccsAddr, ccsApps, NumberFormat.Int8LE)
         writeCCSReg(ccsMeas, 0x10)

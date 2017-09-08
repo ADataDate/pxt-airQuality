@@ -1,14 +1,19 @@
 {
     "name": "airQuality",
+	"version': "0.0.0",
+	"description": "airQuality",
+	"license": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "description": "",
     "files": [
-        "main.blocks",
-        "main.ts",
         "README.md",
         "airQuality.ts"
-    ]
+    ],
+	"testFiles": [
+		"tests.ts"
+	],
+	"public": true
 }

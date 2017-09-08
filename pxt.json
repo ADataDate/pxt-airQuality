@@ -1,6 +1,6 @@
 {
     "name": "airQuality",
-    "version": "0.0.01",
+    "version": "0.0.1",
     "description": "SparkFun airQuality",
     "license": "MIT",
     "dependencies": {

@@ -15,16 +15,14 @@ This package is still under development and subject to changes.
 
 ### Usage 
 
-* The CCS811 Air Quality Sensor can be directly mated to the matching pins (I2C) of thr weather:bit for micro:bit system. 
-* I2C is set up so the user neds to start the device, then read the data. 
+* The CCS811 Air Quality Sensor can be directly mated to the matching pins (I2C) of the weather:bit for micro:bit system. 
+* I2C is set up so the user needs to start the device, then read the data. 
 * The CCS811 sensor takes 20 minutes to burn-in or get meaningful data.
 * The TVOCs are presented as number between 0ppb to 1187ppb. 
 * The eCO2 (equivalent CO2) is presented as a number between 400ppm to 8192ppm. 
 
 
 ### Micro:bit Pins Used 
-
-The following micro:bit pins are used for weather, atmospheric and aquaponics monitoring:  
 
 * ``P19`` --  I2C - SCL
 * ``P20`` --  I2C - SDA 

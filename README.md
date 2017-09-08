@@ -74,5 +74,5 @@ MIT
 * for PXT/microbit
 
 ```package
-airQuality=github:ADataDate/pxt-CCS811
+airQuality=github:ADataDate/pxt-airQuality
 ```

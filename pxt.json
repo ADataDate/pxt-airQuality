@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "airQuality.ts",
+        "airQuality.ts"
     ],
     "testFiles": [
         "tests.ts"

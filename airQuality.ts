@@ -23,6 +23,9 @@
 //% color=#33acff icon="\u27BE"
 namespace airQuality {
 
+	//Keep track of CCS811 Start 
+	let appStarted = false;
+
     //CCS811 Addresses
     const ccsAddr = 0x5B
     const ccsStatus = 0x00
@@ -123,7 +126,12 @@ namespace airQuality {
 
     //% weight=100 blockId="AppStart" block="CCS811 Start"
     export function appStart(): void {
+		if (appStarted) return;
+		
         pins.i2cWriteNumber(ccsAddr, ccsApps, NumberFormat.Int8LE)
         writeCCSReg(ccsMeas, 0x10)
+		
+		//init once 
+		appStarted = true;
     }
 }
